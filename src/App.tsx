@@ -1,30 +1,49 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import OverallCouncil from "./components/OverallCouncil";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
-    </>
+    <div className="container mx-auto px-4">
+      <h1>RUSU Annual Election Results</h1>
+      <hr className="my-4 border-t-4" />
+
+      <h2>2022 Elections</h2>
+
+      <OverallCouncil />
+
+      <h3>General Secretary</h3>
+      {/* Square goes here */}
+
+      <h3>Education Officer</h3>
+      {/* Square goes here */}
+
+      {/*
+        Make a component for this part; roles:
+        - General Secretary
+        - Education Officer
+        - Welfare Officer
+        - International Officer
+        - Postgraduate Officer
+        - Women's Officer
+        - Queer Officer
+        - Indigenous Officer
+        - Disabilities & Carers Officer
+        - Activities Officer
+        - Sustainability Officer
+        - Clubs and Societies Officer
+        - Vocational Education Officer
+        - Brunswick Coordinator
+        - Bundoora Coordinator
+        - City Coordinator
+        - Brunswick Representative
+        - Bundoora East Representative
+        - Bundoora West Representative
+        - City Representative
+        - General Representative (x7)
+
+        - Catalyst Editor
+        - NUS Delegates (x7)?
+      */}
+    </div>
   );
 }
 
