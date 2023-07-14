@@ -1,5 +1,7 @@
 import OverallCouncil from "./components/OverallCouncil";
 
+import results2022 from "../data/2022.json";
+
 function App() {
   return (
     <div className="container mx-auto px-4">
@@ -8,7 +10,7 @@ function App() {
 
       <h2>2022 Elections</h2>
 
-      <OverallCouncil />
+      <OverallCouncil teamCounts={results2022.overallCount} />
 
       <h3>General Secretary</h3>
       {/* Square goes here */}
