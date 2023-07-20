@@ -1,0 +1,254 @@
+{
+  "overallCount": [
+    {
+      "team": "group_tog",
+      "count": 25
+    },
+    {
+      "team": "group_stf",
+      "count": 2
+    }
+  ],
+  "generalSecretary": [
+    {
+      "name": "Jarred Armitage",
+      "team": "group_tog",
+      "votes": 1617
+    },
+    {
+      "name": "Ella Marchionda",
+      "team": "group_stf",
+      "votes": 782
+    }
+  ],
+  "educationOfficer": [
+    {
+      "name": "Karan Hemang Mehta",
+      "team": "group_tog",
+      "votes": 1624
+    },
+    {
+      "name": "Cormac Mills Ritchard",
+      "team": "group_stf",
+      "votes": 775
+    }
+  ],
+  "welfareOfficer": [
+    {
+      "name": "Jingyi Yin",
+      "team": "group_tog",
+      "votes": 1636
+    },
+    {
+      "name": "Matthew Camilleri",
+      "team": "group_stf",
+      "votes": 763
+    }
+  ],
+  "internationalOfficer": [
+    {
+      "name": "Peiji Zhou",
+      "team": "group_tog"
+    }
+  ],
+  "postgraduateOfficer": [
+    {
+      "name": "Sribabu Nagulapalli",
+      "team": "group_tog"
+    }
+  ],
+  "womensOfficer": [
+    {
+      "name": "Harsheet Chhabra",
+      "team": "group_tog"
+    }
+  ],
+  "queerOfficer": [
+    {
+      "names": ["Angelique Maloney-Ray", "Matte Howard"],
+      "team": "group_tog",
+      "votes": 1643
+    },
+    {
+      "names": ["Edoardo Brunetti", "Roz Ward"],
+      "team": "group_stf",
+      "votes": 756
+    }
+  ],
+  "indigenousOfficer": [
+    {
+      "name": "Kimberley Lovegrove",
+      "team": "group_tog"
+    }
+  ],
+  "activitiesOfficer": [
+    {
+      "name": "Siheng Luo",
+      "team": "group_tog",
+      "votes": 1652
+    },
+    {
+      "name": "Casey Cook",
+      "team": "group_stf",
+      "votes": 747
+    }
+  ],
+  "sustainabilityOfficer": [
+    {
+      "name": "Xiaoyue Gui",
+      "team": "group_tog",
+      "votes": 1601
+    },
+    {
+      "name": "Eva Stogiannou",
+      "team": "group_stf",
+      "votes": 798
+    }
+  ],
+  "clubsSocietiesOfficer": [
+    {
+      "name": "Vineet Vinod Prabhakar",
+      "team": "group_tog",
+      "votes": 1652
+    },
+    {
+      "name": "Chris Giddings",
+      "team": "group_stf",
+      "votes": 747
+    }
+  ],
+  "vocationalEducationOfficer": [
+    {
+      "name": "Sheldon Gait",
+      "team": "group_tog"
+    }
+  ],
+  "brunswickCoordinator": [
+    {
+      "name": "Raveena Deshmukh",
+      "team": "group_tog"
+    }
+  ],
+  "bundooraCoordinator": [
+    {
+      "name": "Stephanie Flores-Tapia",
+      "team": "group_tog"
+    }
+  ],
+  "cityCoordinator": [
+    {
+      "name": "Chetana Singh",
+      "team": "group_tog",
+      "votes": 1311
+    },
+    {
+      "name": "Addy Arnot-Bradshaw",
+      "team": "group_stf",
+      "votes": 613
+    }
+  ],
+  "brunswickRep": [
+    {
+      "name": "Ambika Abhinandini",
+      "team": "group_tog"
+    }
+  ],
+  "bundooraEastRep": [
+    {
+      "name": "Santhipriya Thekkanath George",
+      "team": "group_tog"
+    }
+  ],
+  "bundooraWestRep": [
+    {
+      "name": "Jerome Marave",
+      "team": "group_tog"
+    }
+  ],
+  "cityRep": [
+    {
+      "name": "Adam Steiner",
+      "team": "group_tog",
+      "votes": 1275
+    },
+    {
+      "name": "Benjamin Golotta",
+      "team": "group_stf",
+      "votes": 649
+    }
+  ],
+  "generalReps": [
+    {
+      "name": "Akshay Jose",
+      "team": "group_tog",
+      "votes": 1506,
+      "elected": "1st"
+    },
+    {
+      "name": "Liam Thompson",
+      "team": "group_tog",
+      "votes": 30,
+      "elected": "3rd"
+    },
+    {
+      "name": "Huiting Chen",
+      "team": "group_tog",
+      "votes": 15,
+      "elected": "5th"
+    },
+    {
+      "name": "Meghana Karande",
+      "team": "group_tog",
+      "votes": 44,
+      "elected": "Alternate 1"
+    },
+    {
+      "name": "Mark Morante",
+      "team": "group_tog",
+      "votes": 7,
+      "elected": "Alternate 2"
+    },
+    {
+      "name": "Zhichen Tang",
+      "team": "group_tog",
+      "votes": 16,
+      "elected": "No"
+    },
+    {
+      "name": "Chamath Samarakoon",
+      "team": "group_tog",
+      "votes": 40,
+      "elected": "No"
+    },
+    {
+      "name": "Chris Giddings",
+      "team": "group_stf",
+      "votes": 671,
+      "elected": "2nd"
+    },
+    {
+      "name": "Cormac Mills Ritchard",
+      "team": "group_stf",
+      "votes": 32,
+      "elected": "4th"
+    },
+    {
+      "name": "Hannah Robbins",
+      "team": "group_stf",
+      "votes": 61,
+      "elected": "No"
+    },
+    {
+      "name": "Josh Zawa",
+      "team": "group_stf",
+      "votes": 14,
+      "elected": "No"
+    },
+    {
+      "name": "Danny Loats",
+      "team": "group_stf",
+      "votes": 33,
+      "elected": "No"
+    }
+  ]
+}

@@ -2,6 +2,7 @@
 export const TEAM_ID_TOGETHER = "group_tog";
 export const TEAM_ID_SOCIAL_JUSTICE = "group_soj";
 export const TEAM_ID_STUDENT_VOICE = "group_stv";
+export const TEAM_ID_STUDENT_FIGHTBACK = "group_stf";
 export const TEAM_ID_MOMENTUM = "group_mom";
 
 // Stores the tailwind background colour associated with each team
@@ -9,6 +10,7 @@ const TEAM_COLOURS = new Map([
   [TEAM_ID_TOGETHER, "bg-sky-500"],
   [TEAM_ID_SOCIAL_JUSTICE, "bg-neutral-800"],
   [TEAM_ID_STUDENT_VOICE, "bg-red-500"],
+  [TEAM_ID_STUDENT_FIGHTBACK, "bg-orange-400"],
   [TEAM_ID_MOMENTUM, "bg-fuchsia-400"],
 ]);
 
