@@ -1,7 +1,8 @@
 import { teamColourOf } from "../utils/teams";
+import { TeamCount } from "../utils/types";
 
 interface OverallCouncilProps {
-  teamCounts: { team: string; count: number }[];
+  teamCounts: TeamCount[];
 }
 
 export default function OverallCouncil({ teamCounts = [] }: OverallCouncilProps) {
