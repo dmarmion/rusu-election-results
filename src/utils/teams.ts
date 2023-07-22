@@ -10,7 +10,7 @@ const TEAM_COLOURS = new Map([
   [TEAM_ID_TOGETHER, "bg-sky-500"],
   [TEAM_ID_SOCIAL_JUSTICE, "bg-neutral-800"],
   [TEAM_ID_STUDENT_VOICE, "bg-red-500"],
-  [TEAM_ID_STUDENT_FIGHTBACK, "bg-orange-400"],
+  [TEAM_ID_STUDENT_FIGHTBACK, "bg-indigo-500"],
   [TEAM_ID_MOMENTUM, "bg-fuchsia-400"],
 ]);
 
