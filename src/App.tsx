@@ -1,6 +1,14 @@
 import OverallCouncil from "./components/OverallCouncil";
 
 import results2022 from "../data/2022.json";
+import CouncilMember from "./components/CouncilMember";
+import {
+  EDUCATION_OFFICER,
+  GENERAL_SECRETARY,
+  INDIGENOUS_OFFICER,
+  QUEER_OFFICER,
+  WOMENS_OFFICER,
+} from "./utils/labels";
 
 function App() {
   return (
@@ -12,11 +20,12 @@ function App() {
 
       <OverallCouncil teamCounts={results2022.overallCount} />
 
-      <h3>General Secretary</h3>
-      {/* Square goes here */}
+      <CouncilMember title={GENERAL_SECRETARY} candidates={results2022.generalSecretary} />
+      <CouncilMember title={EDUCATION_OFFICER} candidates={results2022.educationOfficer} />
 
-      <h3>Education Officer</h3>
-      {/* Square goes here */}
+      <CouncilMember title={WOMENS_OFFICER} candidates={results2022.womensOfficer} />
+      <CouncilMember title={QUEER_OFFICER} candidates={results2022.queerOfficer} />
+      <CouncilMember title={INDIGENOUS_OFFICER} candidates={results2022.indigenousOfficer} />
 
       {/*
         Make a component for this part; roles:
