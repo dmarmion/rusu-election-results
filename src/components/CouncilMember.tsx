@@ -1,6 +1,7 @@
-import { UNKNOWN_CANDIDATE, labelForPosition } from "../utils/labels";
+import { NOT_APPLICABLE, UNKNOWN_CANDIDATE, labelForPosition } from "../utils/labels";
 import { teamColourOf, teamNameOf } from "../utils/teams";
 import { Candidate } from "../utils/types";
+import { votePercent } from "../utils/votes";
 
 interface CouncilMemberProps {
   positionID: string;
@@ -71,10 +72,8 @@ export default function CouncilMember({ positionID, candidates }: CouncilMemberP
                   ></div>
                   {teamNameOf(team)}
                 </td>
-                <td className="p-2">{votes ?? "N/A"}</td>
-                <td className="p-2">
-                  {votes !== undefined ? ((votes / votesCast) * 100).toFixed(2) : "N/A"}
-                </td>
+                <td className="p-2">{votes ?? NOT_APPLICABLE}</td>
+                <td className="p-2">{votePercent(votes, votesCast)}</td>
               </tr>
             ))}
           </tbody>

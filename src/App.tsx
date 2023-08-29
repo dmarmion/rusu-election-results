@@ -1,4 +1,5 @@
 import CouncilMember from "./components/CouncilMember";
+import GeneralRepresentatives from "./components/GeneralRepresentatives";
 import OverallCouncil from "./components/OverallCouncil";
 
 import results2022 from "../data/2022.json";
@@ -12,6 +13,7 @@ function App() {
       <h2>2022 Elections</h2>
 
       <OverallCouncil teamCounts={results2022.overallCount} />
+      <GeneralRepresentatives candidates={results2022.generalReps} />
 
       {/* Council position result boxes */}
       <div className="mb-4 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">

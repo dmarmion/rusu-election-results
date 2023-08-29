@@ -77,6 +77,14 @@ export const TEAM_NAME_UNKNOWN = "Unknown team";
 
 export const UNKNOWN_CANDIDATE = "Unknown candidate";
 
+// Labels related to elected status for multiple-vacancy contests
+export const NOT_ELECTED_IDENTIFIER = "No";
+export const NOT_ELECTED_MESSAGE = "Not Elected";
+export const ELECTED_PREFIX = "Elected";
+
+// Miscellaneous
+export const NOT_APPLICABLE = "N/A";
+
 // Get the label corresponding to the data file position identifier
 export const labelForPosition = (positionID: string): string =>
   POSITION_LABELS.get(positionID) ?? positionID;
