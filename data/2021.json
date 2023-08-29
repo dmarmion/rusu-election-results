@@ -13,196 +13,258 @@
       "count": 1
     }
   ],
-  "generalSecretary": [
+  "officers": [
     {
-      "name": "Siobhan McGlynn",
-      "team": "group_stv",
-      "votes": 536
+      "position": "generalSecretary",
+      "candidates": [
+        {
+          "names": ["Siobhan McGlynn"],
+          "team": "group_stv",
+          "votes": 536
+        },
+        {
+          "names": ["Sheldon Gait"],
+          "team": "group_tog",
+          "votes": 1190
+        }
+      ]
     },
     {
-      "name": "Sheldon Gait",
-      "team": "group_tog",
-      "votes": 1190
-    }
-  ],
-  "educationOfficer": [
-    {
-      "name": "Natalie Acreman",
-      "team": "group_stv",
-      "votes": 554
+      "position": "educationOfficer",
+      "candidates": [
+        {
+          "names": ["Natalie Acreman"],
+          "team": "group_stv",
+          "votes": 554
+        },
+        {
+          "names": ["Ranitha Dudhani"],
+          "team": "group_tog",
+          "votes": 1186
+        }
+      ]
     },
     {
-      "name": "Ranitha Dudhani",
-      "team": "group_tog",
-      "votes": 1186
-    }
-  ],
-  "welfareOfficer": [
-    {
-      "name": "Zhichen Tang",
-      "team": "group_tog",
-      "votes": 1178
+      "position": "welfareOfficer",
+      "candidates": [
+        {
+          "names": ["Zhichen Tang"],
+          "team": "group_tog",
+          "votes": 1178
+        },
+        {
+          "names": ["Alyce McVicar"],
+          "team": "group_stv",
+          "votes": 552
+        }
+      ]
     },
     {
-      "name": "Alyce McVicar",
-      "team": "group_stv",
-      "votes": 552
-    }
-  ],
-  "internationalOfficer": [
-    {
-      "name": "Yin Ma",
-      "team": "group_tog"
-    }
-  ],
-  "postgraduateOfficer": [
-    {
-      "name": "Tanay Sanjay Shah",
-      "team": "group_tog",
-      "votes": 230
+      "position": "internationalOfficer",
+      "candidates": [
+        {
+          "names": ["Yin Ma"],
+          "team": "group_tog"
+        }
+      ]
     },
     {
-      "name": "Hugh Sullivan",
-      "team": "group_stv",
-      "votes": 92
-    }
-  ],
-  "womensOfficer": [
-    {
-      "name": "Bethany Shegog",
-      "team": "group_tog",
-      "votes": 579
+      "position": "postgraduateOfficer",
+      "candidates": [
+        {
+          "names": ["Tanay Sanjay Shah"],
+          "team": "group_tog",
+          "votes": 230
+        },
+        {
+          "names": ["Hugh Sullivan"],
+          "team": "group_stv",
+          "votes": 92
+        }
+      ]
     },
     {
-      "name": "Amelia Christie",
-      "team": "group_stv",
-      "votes": 291
-    }
-  ],
-  "queerOfficer": [
-    {
-      "names": ["Bela Tunstall", "Casey Cook"],
-      "team": "group_stv",
-      "votes": 551
+      "position": "womensOfficer",
+      "candidates": [
+        {
+          "names": ["Bethany Shegog"],
+          "team": "group_tog",
+          "votes": 579
+        },
+        {
+          "names": ["Amelia Christie"],
+          "team": "group_stv",
+          "votes": 291
+        }
+      ]
     },
     {
-      "names": ["Patrick Pieciun", "Reggie Chang"],
-      "team": "group_tog",
-      "votes": 1173
-    }
-  ],
-  "indigenousOfficer": [
-    {
-      "name": "Shylicia McKiernan",
-      "team": "group_tog"
-    }
-  ],
-  "disabilitiesCarersOfficer": [
-    {
-      "name": "Chris Giddings",
-      "team": "group_stv",
-      "votes": 525
+      "position": "queerOfficer",
+      "candidates": [
+        {
+          "names": ["Bela Tunstall", "Casey Cook"],
+          "team": "group_stv",
+          "votes": 551
+        },
+        {
+          "names": ["Patrick Pieciun", "Reggie Chang"],
+          "team": "group_tog",
+          "votes": 1173
+        }
+      ]
     },
     {
-      "name": "Mark Morante",
-      "team": "group_tog",
-      "votes": 1203
-    }
-  ],
-  "activitiesOfficer": [
-    {
-      "name": "Lucas Rosinsky",
-      "team": "group_stv",
-      "votes": 531
+      "position": "indigenousOfficer",
+      "candidates": [
+        {
+          "names": ["Shylicia McKiernan"],
+          "team": "group_tog"
+        }
+      ]
     },
     {
-      "name": "Jingyi Yin",
-      "team": "group_tog",
-      "votes": 1195
-    }
-  ],
-  "sustainabilityOfficer": [
-    {
-      "name": "Peiji Zhou",
-      "team": "group_tog",
-      "votes": 1182
+      "position": "disabilitiesCarersOfficer",
+      "candidates": [
+        {
+          "names": ["Chris Giddings"],
+          "team": "group_stv",
+          "votes": 525
+        },
+        {
+          "names": ["Mark Morante"],
+          "team": "group_tog",
+          "votes": 1203
+        }
+      ]
     },
     {
-      "name": "Cormac Mills Ritchard",
-      "team": "group_stv",
-      "votes": 546
-    }
-  ],
-  "clubsSocietiesOfficer": [
-    {
-      "name": "Maddie Hah",
-      "team": "group_stv",
-      "votes": 527
+      "position": "activitiesOfficer",
+      "candidates": [
+        {
+          "names": ["Lucas Rosinsky"],
+          "team": "group_stv",
+          "votes": 531
+        },
+        {
+          "names": ["Jingyi Yin"],
+          "team": "group_tog",
+          "votes": 1195
+        }
+      ]
     },
     {
-      "name": "Akhil Ravindran",
-      "team": "group_tog",
-      "votes": 1203
-    }
-  ],
-  "vocationalEducationOfficer": [
-    {
-      "name": "William Potter",
-      "team": "group_tog"
-    }
-  ],
-  "brunswickCoordinator": [
-    {
-      "name": "Elyse Zoungas",
-      "team": "group_tog"
-    }
-  ],
-  "bundooraCoordinator": [
-    {
-      "name": "Ayesha Ahmed",
-      "team": "group_tog"
-    }
-  ],
-  "cityCoordinator": [
-    {
-      "name": "James McVicar",
-      "team": "group_stv",
-      "votes": 499
+      "position": "sustainabilityOfficer",
+      "candidates": [
+        {
+          "names": ["Peiji Zhou"],
+          "team": "group_tog",
+          "votes": 1182
+        },
+        {
+          "names": ["Cormac Mills Ritchard"],
+          "team": "group_stv",
+          "votes": 546
+        }
+      ]
     },
     {
-      "name": "Runjhun Agarwal",
-      "team": "group_tog",
-      "votes": 1034
-    }
-  ],
-  "brunswickRep": [
-    {
-      "name": "Nhi Tran Khanh Pham",
-      "team": "group_tog"
-    }
-  ],
-  "bundooraEastRep": [
-    {
-      "name": "Jack Spires",
-      "team": "group_tog"
-    }
-  ],
-  "bundooraWestRep": [
-    {
-      "name": "Pratik Chauhan",
-      "team": "group_tog"
-    }
-  ],
-  "cityRep": [
-    {
-      "name": "Angelin Tom",
-      "team": "group_tog",
-      "votes": 1031
+      "position": "clubsSocietiesOfficer",
+      "candidates": [
+        {
+          "names": ["Maddie Hah"],
+          "team": "group_stv",
+          "votes": 527
+        },
+        {
+          "names": ["Akhil Ravindran"],
+          "team": "group_tog",
+          "votes": 1203
+        }
+      ]
     },
     {
-      "name": "Benjamin Milne",
-      "team": "group_stv",
-      "votes": 499
+      "position": "vocationalEducationOfficer",
+      "candidates": [
+        {
+          "names": ["William Potter"],
+          "team": "group_tog"
+        }
+      ]
+    },
+    {
+      "position": "brunswickCoordinator",
+      "candidates": [
+        {
+          "names": ["Elyse Zoungas"],
+          "team": "group_tog"
+        }
+      ]
+    },
+    {
+      "position": "bundooraCoordinator",
+      "candidates": [
+        {
+          "names": ["Ayesha Ahmed"],
+          "team": "group_tog"
+        }
+      ]
+    },
+    {
+      "position": "cityCoordinator",
+      "candidates": [
+        {
+          "names": ["James McVicar"],
+          "team": "group_stv",
+          "votes": 499
+        },
+        {
+          "names": ["Runjhun Agarwal"],
+          "team": "group_tog",
+          "votes": 1034
+        }
+      ]
+    },
+    {
+      "position": "brunswickRep",
+      "candidates": [
+        {
+          "names": ["Nhi Tran Khanh Pham"],
+          "team": "group_tog"
+        }
+      ]
+    },
+    {
+      "position": "bundooraEastRep",
+      "candidates": [
+        {
+          "names": ["Jack Spires"],
+          "team": "group_tog"
+        }
+      ]
+    },
+    {
+      "position": "bundooraWestRep",
+      "candidates": [
+        {
+          "names": ["Pratik Chauhan"],
+          "team": "group_tog"
+        }
+      ]
+    },
+    {
+      "position": "cityRep",
+      "candidates": [
+        {
+          "names": ["Angelin Tom"],
+          "team": "group_tog",
+          "votes": 1031
+        },
+        {
+          "names": ["Benjamin Milne"],
+          "team": "group_stv",
+          "votes": 499
+        }
+      ]
     }
   ],
   "generalReps": [

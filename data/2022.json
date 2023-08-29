@@ -13,234 +13,296 @@
       "count": 0
     }
   ],
-  "generalSecretary": [
+  "officers": [
     {
-      "name": "Jordan Smith",
-      "team": "group_mom",
-      "votes": 99
+      "position": "generalSecretary",
+      "candidates": [
+        {
+          "names": ["Jordan Smith"],
+          "team": "group_mom",
+          "votes": 99
+        },
+        {
+          "names": ["Ella Marchionda"],
+          "team": "group_soj",
+          "votes": 896
+        },
+        {
+          "names": ["Mark Morante"],
+          "team": "group_tog",
+          "votes": 3335
+        }
+      ]
     },
     {
-      "name": "Ella Marchionda",
-      "team": "group_soj",
-      "votes": 896
+      "position": "educationOfficer",
+      "candidates": [
+        {
+          "names": ["David Ng"],
+          "team": "group_soj",
+          "votes": 927
+        },
+        {
+          "names": ["Terry Kim"],
+          "team": "group_tog",
+          "votes": 3383
+        }
+      ]
     },
     {
-      "name": "Mark Morante",
-      "team": "group_tog",
-      "votes": 3335
-    }
-  ],
-  "educationOfficer": [
-    {
-      "name": "David Ng",
-      "team": "group_soj",
-      "votes": 927
+      "position": "welfareOfficer",
+      "candidates": [
+        {
+          "names": ["Julia McIvor"],
+          "team": "group_mom",
+          "votes": 94
+        },
+        {
+          "names": ["Alyce McVicar"],
+          "team": "group_soj",
+          "votes": 914
+        },
+        {
+          "names": ["Amelia Cotsanis"],
+          "team": "group_tog",
+          "votes": 3325
+        }
+      ]
     },
     {
-      "name": "Terry Kim",
-      "team": "group_tog",
-      "votes": 3383
-    }
-  ],
-  "welfareOfficer": [
-    {
-      "name": "Julia McIvor",
-      "team": "group_mom",
-      "votes": 94
+      "position": "internationalOfficer",
+      "candidates": [
+        {
+          "names": ["Ersha Mohan"],
+          "team": "group_soj",
+          "votes": 234
+        },
+        {
+          "names": ["Haiting Lu"],
+          "team": "group_tog",
+          "votes": 1187
+        }
+      ]
     },
     {
-      "name": "Alyce McVicar",
-      "team": "group_soj",
-      "votes": 914
+      "position": "postgraduateOfficer",
+      "candidates": [
+        {
+          "names": ["Hugh Sullivan"],
+          "team": "group_soj",
+          "votes": 183
+        },
+        {
+          "names": ["Dhweep Shah"],
+          "team": "group_tog",
+          "votes": 494
+        }
+      ]
     },
     {
-      "name": "Amelia Cotsanis",
-      "team": "group_tog",
-      "votes": 3325
-    }
-  ],
-  "internationalOfficer": [
-    {
-      "name": "Ersha Mohan",
-      "team": "group_soj",
-      "votes": 234
+      "position": "womensOfficer",
+      "candidates": [
+        {
+          "names": ["Asyiqin Sanif"],
+          "team": "group_soj",
+          "votes": 496
+        },
+        {
+          "names": ["Akshita Agrawal"],
+          "team": "group_tog",
+          "votes": 1440
+        }
+      ]
     },
     {
-      "name": "Haiting Lu",
-      "team": "group_tog",
-      "votes": 1187
-    }
-  ],
-  "postgraduateOfficer": [
-    {
-      "name": "Hugh Sullivan",
-      "team": "group_soj",
-      "votes": 183
+      "position": "queerOfficer",
+      "candidates": [
+        {
+          "names": ["Rhydian Kelly"],
+          "team": "group_mom",
+          "votes": 104
+        },
+        {
+          "names": ["Steven Hawes", "Dominique Niere"],
+          "team": "group_soj",
+          "votes": 884
+        },
+        {
+          "names": ["Patrick Pieciun", "Alice Holmes"],
+          "team": "group_tog",
+          "votes": 3331
+        }
+      ]
     },
     {
-      "name": "Dhweep Shah",
-      "team": "group_tog",
-      "votes": 494
-    }
-  ],
-  "womensOfficer": [
-    {
-      "name": "Asyiqin Sanif",
-      "team": "group_soj",
-      "votes": 496
+      "position": "indigenousOfficer",
+      "candidates": [
+        {
+          "names": ["Anjali Kiran"],
+          "team": "group_tog"
+        }
+      ]
     },
     {
-      "name": "Akshita Agrawal",
-      "team": "group_tog",
-      "votes": 1440
-    }
-  ],
-  "queerOfficer": [
-    {
-      "name": "Rhydian Kelly",
-      "team": "group_mom",
-      "votes": 104
+      "position": "disabilitiesCarersOfficer",
+      "candidates": [
+        {
+          "names": ["Chris Giddings"],
+          "team": "group_soj",
+          "votes": 899
+        },
+        {
+          "names": ["Timothy Winning"],
+          "team": "group_tog",
+          "votes": 3401
+        }
+      ]
     },
     {
-      "names": ["Steven Hawes", "Dominique Niere"],
-      "team": "group_soj",
-      "votes": 884
+      "position": "activitiesOfficer",
+      "candidates": [
+        {
+          "names": ["Finn Corr"],
+          "team": "group_soj",
+          "votes": 929
+        },
+        {
+          "names": ["Coco Liu"],
+          "team": "group_tog",
+          "votes": 3382
+        }
+      ]
     },
     {
-      "names": ["Patrick Pieciun", "Alice Holmes"],
-      "team": "group_tog",
-      "votes": 3331
-    }
-  ],
-  "indigenousOfficer": [
-    {
-      "name": "Anjali Kiran",
-      "team": "group_tog"
-    }
-  ],
-  "disabilitiesCarersOfficer": [
-    {
-      "name": "Chris Giddings",
-      "team": "group_soj",
-      "votes": 899
+      "position": "sustainabilityOfficer",
+      "candidates": [
+        {
+          "names": ["Tharun Yadav "],
+          "team": "group_mom",
+          "votes": 99
+        },
+        {
+          "names": ["Richard Cooling"],
+          "team": "group_soj",
+          "votes": 925
+        },
+        {
+          "names": ["Ella Byrne"],
+          "team": "group_tog",
+          "votes": 3302
+        }
+      ]
     },
     {
-      "name": "Timothy Winning",
-      "team": "group_tog",
-      "votes": 3401
-    }
-  ],
-  "activitiesOfficer": [
-    {
-      "name": "Finn Corr",
-      "team": "group_soj",
-      "votes": 929
+      "position": "clubsSocietiesOfficer",
+      "candidates": [
+        {
+          "names": ["Siobhan McGlynn"],
+          "team": "group_soj",
+          "votes": 903
+        },
+        {
+          "names": ["Felicia Nguyen"],
+          "team": "group_tog",
+          "votes": 3406
+        }
+      ]
     },
     {
-      "name": "Coco Liu",
-      "team": "group_tog",
-      "votes": 3382
-    }
-  ],
-  "sustainabilityOfficer": [
-    {
-      "name": "Tharun Yadav ",
-      "team": "group_mom",
-      "votes": 99
+      "position": "vocationalEducationOfficer",
+      "candidates": [
+        {
+          "names": ["Henry Parker"],
+          "team": "group_soj",
+          "votes": 104
+        },
+        {
+          "names": ["Elior Malka"],
+          "team": "group_tog",
+          "votes": 375
+        }
+      ]
     },
     {
-      "name": "Richard Cooling",
-      "team": "group_soj",
-      "votes": 925
+      "position": "brunswickCoordinator",
+      "candidates": [
+        {
+          "names": ["Daniel Mizzi"],
+          "team": "group_tog"
+        }
+      ]
     },
     {
-      "name": "Ella Byrne",
-      "team": "group_tog",
-      "votes": 3302
-    }
-  ],
-  "clubsSocietiesOfficer": [
-    {
-      "name": "Siobhan McGlynn",
-      "team": "group_soj",
-      "votes": 903
+      "position": "bundooraCoordinator",
+      "candidates": [
+        {
+          "names": ["Renee Garcia"],
+          "team": "group_soj",
+          "votes": 90
+        },
+        {
+          "names": ["Riya Sangra"],
+          "team": "group_tog",
+          "votes": 445
+        }
+      ]
     },
     {
-      "name": "Felicia Nguyen",
-      "team": "group_tog",
-      "votes": 3406
-    }
-  ],
-  "vocationalEducationOfficer": [
-    {
-      "name": "Henry Parker",
-      "team": "group_soj",
-      "votes": 104
+      "position": "cityCoordinator",
+      "candidates": [
+        {
+          "names": ["Harry Hughes"],
+          "team": "group_soj",
+          "votes": 830
+        },
+        {
+          "names": ["Jatin Bhootna"],
+          "team": "group_tog",
+          "votes": 3236
+        }
+      ]
     },
     {
-      "name": "Elior Malka",
-      "team": "group_tog",
-      "votes": 375
-    }
-  ],
-  "brunswickCoordinator": [
-    {
-      "name": "Daniel Mizzi",
-      "team": "group_tog"
-    }
-  ],
-  "bundooraCoordinator": [
-    {
-      "name": "Renee Garcia",
-      "team": "group_soj",
-      "votes": 90
+      "position": "brunswickRep",
+      "candidates": [
+        {
+          "names": ["Georgia Mullins"],
+          "team": "group_tog"
+        }
+      ]
     },
     {
-      "name": "Riya Sangra",
-      "team": "group_tog",
-      "votes": 445
-    }
-  ],
-  "cityCoordinator": [
-    {
-      "name": "Harry Hughes",
-      "team": "group_soj",
-      "votes": 830
+      "position": "bundooraEastRep",
+      "candidates": [
+        {
+          "names": ["Simon Manoj"],
+          "team": "group_tog"
+        }
+      ]
     },
     {
-      "name": "Jatin Bhootna",
-      "team": "group_tog",
-      "votes": 3236
-    }
-  ],
-  "brunswickRep": [
-    {
-      "name": "Georgia Mullins",
-      "team": "group_tog"
-    }
-  ],
-  "bundooraEastRep": [
-    {
-      "name": "Simon Manoj",
-      "team": "group_tog"
-    }
-  ],
-  "bundooraWestRep": [
-    {
-      "name": "Dulan Ariyathilaka",
-      "team": "group_tog"
-    }
-  ],
-  "cityRep": [
-    {
-      "name": "Deitra Kanellos",
-      "team": "group_soj",
-      "votes": 852
+      "position": "bundooraWestRep",
+      "candidates": [
+        {
+          "names": ["Dulan Ariyathilaka"],
+          "team": "group_tog"
+        }
+      ]
     },
     {
-      "name": "Koushik Mukherjee",
-      "team": "group_tog",
-      "votes": 3225
+      "position": "cityRep",
+      "candidates": [
+        {
+          "names": ["Deitra Kanellos"],
+          "team": "group_soj",
+          "votes": 852
+        },
+        {
+          "names": ["Koushik Mukherjee"],
+          "team": "group_tog",
+          "votes": 3225
+        }
+      ]
     }
   ],
   "generalReps": [
@@ -354,7 +416,7 @@
       "votes": 3404
     },
     {
-      "name": "Julia McIvor",
+      "names": ["Julia McIvor"],
       "team": "group_x",
       "votes": 409
     }
