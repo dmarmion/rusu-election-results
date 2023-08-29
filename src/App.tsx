@@ -13,9 +13,12 @@ function App() {
 
       <OverallCouncil teamCounts={results2022.overallCount} />
 
-      {results2022.officers.map((position) => (
-        <CouncilMember positionID={position.position} candidates={position.candidates} />
-      ))}
+      {/* Council position result boxes */}
+      <div className="mb-4 grid grid-cols-1 gap-4 lg:grid-cols-2 xl:grid-cols-3">
+        {results2022.officers.map((position) => (
+          <CouncilMember positionID={position.position} candidates={position.candidates} />
+        ))}
+      </div>
     </div>
   );
 }

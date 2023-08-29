@@ -29,7 +29,7 @@ export default function CouncilMember({ positionID, candidates }: CouncilMemberP
   const winner = candidates[winnerIndex];
 
   return (
-    <>
+    <div>
       <h3>{labelForPosition(positionID)}</h3>
       <div className="rounded-lg bg-neutral-200 p-2">
         {/* Candidate square(s) */}
@@ -68,6 +68,6 @@ export default function CouncilMember({ positionID, candidates }: CouncilMemberP
           </tbody>
         </table>
       </div>
-    </>
+    </div>
   );
 }

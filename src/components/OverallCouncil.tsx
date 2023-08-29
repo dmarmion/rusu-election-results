@@ -15,7 +15,7 @@ export default function OverallCouncil({ teamCounts = [] }: OverallCouncilProps)
   });
 
   return (
-    <>
+    <div className="mb-4">
       <h3>Overall Council</h3>
       <p className="mb-2 italic">Does not include NUS delegates</p>
 
@@ -24,6 +24,6 @@ export default function OverallCouncil({ teamCounts = [] }: OverallCouncilProps)
           <div className={`w-fill h-10 rounded-lg ${bgColour}`} key={idx}></div>
         ))}
       </div>
-    </>
+    </div>
   );
 }
