@@ -14,7 +14,7 @@ function App() {
       <OverallCouncil teamCounts={results2022.overallCount} />
 
       {/* Council position result boxes */}
-      <div className="mb-4 grid grid-cols-1 gap-4 lg:grid-cols-2 xl:grid-cols-3">
+      <div className="mb-4 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
         {results2022.officers.map((position) => (
           <CouncilMember positionID={position.position} candidates={position.candidates} />
         ))}

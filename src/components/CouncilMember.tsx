@@ -34,9 +34,9 @@ export default function CouncilMember({ positionID, candidates }: CouncilMemberP
   }, 0);
 
   return (
-    <div>
+    <div className="flex flex-col">
       <h3>{labelForPosition(positionID)}</h3>
-      <div className="rounded-lg bg-neutral-200 p-2">
+      <div className="grow rounded-lg bg-neutral-200 p-2">
         {/* Candidate square(s) */}
         {Array(winner.names.length)
           .fill(null)
@@ -47,20 +47,23 @@ export default function CouncilMember({ positionID, candidates }: CouncilMemberP
           ))}
 
         {/* Results table */}
-        <table>
+        <table className="w-full">
           <thead>
             <tr className="border-b-2 border-gray-700 text-left">
               <th>Candidate</th>
-              <th>Team</th>
-              <th>Votes</th>
-              <th>%</th>
+              <th className="px-2">Team</th>
+              <th className="px-2">Votes</th>
+              <th className="px-2">%</th>
             </tr>
           </thead>
           <tbody>
-            {candidates.map(({ names, team, votes }) => (
-              <tr className="border-b border-gray-400">
-                <td>{names.map((name) => <p>{name}</p>) ?? UNKNOWN_CANDIDATE}</td>
-                <td>
+            {candidates.map(({ names, team, votes }, idx) => (
+              <tr
+                className="border-b border-gray-400 data-[winner=true]:font-bold"
+                data-winner={winnerIndex === idx}
+              >
+                <td className="py-2">{names.map((name) => <p>{name}</p>) ?? UNKNOWN_CANDIDATE}</td>
+                <td className="p-2">
                   <div
                     className={`mr-1 inline-flex h-3 w-3 rounded-md align-middle ${teamColourOf(
                       team
@@ -68,8 +71,10 @@ export default function CouncilMember({ positionID, candidates }: CouncilMemberP
                   ></div>
                   {teamNameOf(team)}
                 </td>
-                <td>{votes ?? "N/A"}</td>
-                <td>{votes !== undefined ? ((votes / votesCast) * 100).toFixed(2) : "N/A"}</td>
+                <td className="p-2">{votes ?? "N/A"}</td>
+                <td className="p-2">
+                  {votes !== undefined ? ((votes / votesCast) * 100).toFixed(2) : "N/A"}
+                </td>
               </tr>
             ))}
           </tbody>
