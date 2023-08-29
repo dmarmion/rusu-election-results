@@ -1,6 +1,5 @@
 export interface Candidate {
-  name?: string;
-  names?: string[];
+  names: string[];
   team: string;
   votes?: number;
 }

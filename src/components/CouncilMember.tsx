@@ -1,13 +1,18 @@
-import { UNKNOWN_CANDIDATE } from "../utils/labels";
+import { UNKNOWN_CANDIDATE, labelForPosition } from "../utils/labels";
 import { teamColourOf, teamNameOf } from "../utils/teams";
 import { Candidate } from "../utils/types";
 
 interface CouncilMemberProps {
-  title: string;
+  positionID: string;
   candidates: Candidate[];
 }
 
-export default function CouncilMember({ title, candidates }: CouncilMemberProps) {
+export default function CouncilMember({ positionID, candidates }: CouncilMemberProps) {
+  // There must be at least one candidate for the position
+  if (candidates.length === 0) {
+    return null;
+  }
+
   // Determine winning candidate
   let winnerIndex = 0;
   if (candidates.length > 1) {
@@ -20,20 +25,19 @@ export default function CouncilMember({ title, candidates }: CouncilMemberProps)
       }
     }
   }
-  const numElected = candidates[winnerIndex].name ? 1 : candidates[winnerIndex].names?.length ?? 0;
+
+  const winner = candidates[winnerIndex];
 
   return (
     <>
-      <h3>{title}</h3>
+      <h3>{labelForPosition(positionID)}</h3>
       <div className="rounded-lg bg-neutral-200 p-2">
         {/* Candidate square(s) */}
-        {Array(numElected)
+        {Array(winner.names.length)
           .fill(null)
           .map(() => (
             <div
-              className={`mr-2 inline-flex h-20 w-20 rounded-lg ${teamColourOf(
-                candidates[winnerIndex].team
-              )}`}
+              className={`mr-2 inline-flex h-20 w-20 rounded-lg ${teamColourOf(winner.team)}`}
             ></div>
           ))}
 
@@ -47,9 +51,9 @@ export default function CouncilMember({ title, candidates }: CouncilMemberProps)
             </tr>
           </thead>
           <tbody>
-            {candidates.map(({ name, names, team, votes }) => (
+            {candidates.map(({ names, team, votes }) => (
               <tr className="border-b border-gray-400">
-                <td>{name ?? names?.join(", ") ?? UNKNOWN_CANDIDATE}</td>
+                <td>{names.join(", ") ?? UNKNOWN_CANDIDATE}</td>
                 <td>
                   <div
                     className={`mr-1 inline-flex h-3 w-3 rounded-md align-middle ${teamColourOf(
