@@ -28,6 +28,11 @@ export default function CouncilMember({ positionID, candidates }: CouncilMemberP
 
   const winner = candidates[winnerIndex];
 
+  // Calculate total number of votes cast
+  const votesCast = candidates.reduce((prevTotal, candidate) => {
+    return prevTotal + (candidate.votes ?? 0);
+  }, 0);
+
   return (
     <div>
       <h3>{labelForPosition(positionID)}</h3>
@@ -48,12 +53,13 @@ export default function CouncilMember({ positionID, candidates }: CouncilMemberP
               <th>Candidate</th>
               <th>Team</th>
               <th>Votes</th>
+              <th>%</th>
             </tr>
           </thead>
           <tbody>
             {candidates.map(({ names, team, votes }) => (
               <tr className="border-b border-gray-400">
-                <td>{names.join(", ") ?? UNKNOWN_CANDIDATE}</td>
+                <td>{names.map((name) => <p>{name}</p>) ?? UNKNOWN_CANDIDATE}</td>
                 <td>
                   <div
                     className={`mr-1 inline-flex h-3 w-3 rounded-md align-middle ${teamColourOf(
@@ -63,6 +69,7 @@ export default function CouncilMember({ positionID, candidates }: CouncilMemberP
                   {teamNameOf(team)}
                 </td>
                 <td>{votes ?? "N/A"}</td>
+                <td>{votes !== undefined ? ((votes / votesCast) * 100).toFixed(2) : "N/A"}</td>
               </tr>
             ))}
           </tbody>
