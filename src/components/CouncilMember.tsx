@@ -1,5 +1,5 @@
 import { NOT_APPLICABLE, UNKNOWN_CANDIDATE, labelForPosition } from "../utils/labels";
-import { teamColourOf, teamNameOf } from "../utils/teams";
+import { teamColourOf } from "../utils/teams";
 import { Candidate } from "../utils/types";
 import { votePercent } from "../utils/votes";
 

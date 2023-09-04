@@ -1,5 +1,4 @@
 import { NOT_APPLICABLE, UNKNOWN_CANDIDATE } from "../utils/labels";
-import { teamColourOf, teamNameOf } from "../utils/teams";
 import { GeneralRepCandidate } from "../utils/types";
 import { droopQuotas, votePercent, wasElected, wasElectedMessage } from "../utils/votes";
 
