@@ -3,6 +3,8 @@ import { teamColourOf, teamNameOf } from "../utils/teams";
 import { Candidate } from "../utils/types";
 import { votePercent } from "../utils/votes";
 
+import TeamNameWithDot from "./TeamNameWithDot";
+
 interface CouncilMemberProps {
   positionID: string;
   candidates: Candidate[];
@@ -65,12 +67,7 @@ export default function CouncilMember({ positionID, candidates }: CouncilMemberP
               >
                 <td className="py-2">{names.map((name) => <p>{name}</p>) ?? UNKNOWN_CANDIDATE}</td>
                 <td className="p-2">
-                  <div
-                    className={`mr-1 inline-flex h-3 w-3 rounded-md align-middle ${teamColourOf(
-                      team
-                    )}`}
-                  ></div>
-                  {teamNameOf(team)}
+                  <TeamNameWithDot teamID={team} />
                 </td>
                 <td className="p-2">{votes ?? NOT_APPLICABLE}</td>
                 <td className="p-2">{votePercent(votes, votesCast)}</td>
