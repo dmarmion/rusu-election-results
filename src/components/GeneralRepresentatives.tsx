@@ -1,4 +1,5 @@
 import { NOT_APPLICABLE, UNKNOWN_CANDIDATE } from "../utils/labels";
+import { teamColourOf } from "../utils/teams";
 import { GeneralRepCandidate } from "../utils/types";
 import { droopQuotas, votePercent, wasElected, wasElectedMessage } from "../utils/votes";
 
@@ -8,12 +9,17 @@ interface GeneralRepresentativesProps {
   candidates: GeneralRepCandidate[];
 }
 
+interface TeamStats {
+  votes: number;
+  elected: number;
+}
+
 export default function GeneralRepresentatives({ candidates }: GeneralRepresentativesProps) {
   const POSITIONS_AVAILABLE = 7;
   const votesCast = candidates.reduce((prevTotal, candidate) => prevTotal + candidate.votes, 0);
 
   // Calculate total number of votes and candidates elected for each team
-  const teamStats: Map<string, { votes: number; elected: number }> = new Map();
+  const teamStats: Map<string, TeamStats> = new Map();
   candidates.forEach(({ team, votes, elected }) => {
     const currentTeamVotes = teamStats.get(team)?.votes ?? 0;
     const currentTeamElected = teamStats.get(team)?.elected ?? 0;
@@ -23,10 +29,20 @@ export default function GeneralRepresentatives({ candidates }: GeneralRepresenta
     });
   });
 
+  const sortedTeamStats = [...teamStats.entries()].sort(sortByNumberElected);
+
   return (
     <>
       <h3>General Representatives</h3>
       <div className="mb-4 rounded-lg bg-neutral-200 p-2">
+        {/* Candidate squares */}
+        {sortedTeamStats.map(([team, { elected }]) =>
+          Array(elected)
+            .fill(null)
+            .map(() => (
+              <div className={`mr-2 inline-flex h-20 w-20 rounded-lg ${teamColourOf(team)}`}></div>
+            ))
+        )}
         {/* Team total results table */}
         <table className="mb-4 w-full">
           <thead>
@@ -39,8 +55,11 @@ export default function GeneralRepresentatives({ candidates }: GeneralRepresenta
             </tr>
           </thead>
           <tbody>
-            {[...teamStats.entries()].map(([team, { votes, elected }]) => (
-              <tr className="border-b border-gray-400">
+            {sortedTeamStats.map(([team, { votes, elected }]) => (
+              <tr
+                className="border-b border-gray-400 data-[winner=true]:font-bold"
+                data-winner={elected > 0}
+              >
                 <td className="py-2">
                   <TeamNameWithDot teamID={team} />
                 </td>
@@ -86,3 +105,13 @@ export default function GeneralRepresentatives({ candidates }: GeneralRepresenta
     </>
   );
 }
+
+// Sort teams by the number of elected candidates, largest-to-smallest
+const sortByNumberElected = (
+  [, teamStatsA]: [string, TeamStats],
+  [, teamStatsB]: [string, TeamStats]
+): number => {
+  let sortOrder = teamStatsB.elected - teamStatsA.elected;
+  sortOrder = sortOrder === 0 ? teamStatsB.votes - teamStatsA.votes : sortOrder;
+  return sortOrder;
+};
