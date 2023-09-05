@@ -1,0 +1,370 @@
+{
+  "overallCount": [
+    {
+      "team": "group_tog",
+      "count": 6
+    },
+    {
+      "team": "group_soj",
+      "count": 0
+    }
+  ],
+  "officers": [
+    {
+      "position": "generalSecretary",
+      "candidates": [
+        {
+          "names": ["Ben Milne"],
+          "team": "group_soj",
+          "votes": 0
+        },
+        {
+          "names": ["Dhweep Shah"],
+          "team": "group_tog",
+          "votes": 0
+        }
+      ]
+    },
+    {
+      "position": "educationOfficer",
+      "candidates": [
+        {
+          "names": ["James McVicar"],
+          "team": "group_soj",
+          "votes": 0
+        },
+        {
+          "names": ["Koushik Mukherjee"],
+          "team": "group_tog",
+          "votes": 0
+        }
+      ]
+    },
+    {
+      "position": "welfareOfficer",
+      "candidates": [
+        {
+          "names": ["David Ng"],
+          "team": "group_soj",
+          "votes": 0
+        },
+        {
+          "names": ["Finbar Bray"],
+          "team": "group_tog",
+          "votes": 0
+        }
+      ]
+    },
+    {
+      "position": "internationalOfficer",
+      "candidates": [
+        {
+          "names": ["Aerozeta Anantaputra"],
+          "team": "group_soj",
+          "votes": 0
+        },
+        {
+          "names": ["Ada Lu"],
+          "team": "group_tog",
+          "votes": 0
+        }
+      ]
+    },
+    {
+      "position": "postgraduateOfficer",
+      "candidates": [
+        {
+          "names": ["Mac Gosewisch"],
+          "team": "group_soj",
+          "votes": 0
+        },
+        {
+          "names": ["Bhuvan Sharma"],
+          "team": "group_tog",
+          "votes": 0
+        }
+      ]
+    },
+    {
+      "position": "womensOfficer",
+      "candidates": [
+        {
+          "names": ["Zavia Lingenti"],
+          "team": "group_soj",
+          "votes": 0
+        },
+        {
+          "names": ["Saumya Sindhu"],
+          "team": "group_tog",
+          "votes": 0
+        }
+      ]
+    },
+    {
+      "position": "queerOfficer",
+      "candidates": [
+        {
+          "names": ["Gemma Seymour", "Stevie Hawes"],
+          "team": "group_soj",
+          "votes": 0
+        },
+        {
+          "names": ["Vivienne Balint", "Matthew Hayes"],
+          "team": "group_tog",
+          "votes": 0
+        }
+      ]
+    },
+    {
+      "position": "indigenousOfficer",
+      "candidates": [
+        {
+          "names": ["Tiah Worley", "Ruby Kelly-Guthrie"],
+          "team": "group_tog"
+        }
+      ]
+    },
+    {
+      "position": "disabilitiesCarersOfficer",
+      "candidates": [
+        {
+          "names": ["Cormac Mills Ritchard"],
+          "team": "group_soj",
+          "votes": 0
+        },
+        {
+          "names": ["Samuel Coombs"],
+          "team": "group_tog",
+          "votes": 0
+        }
+      ]
+    },
+    {
+      "position": "activitiesOfficer",
+      "candidates": [
+        {
+          "names": ["Amandi Peiris"],
+          "team": "group_tog",
+          "votes": 0
+        },
+        {
+          "names": ["Finn Corr"],
+          "team": "group_soj",
+          "votes": 0
+        }
+      ]
+    },
+    {
+      "position": "sustainabilityOfficer",
+      "candidates": [
+        {
+          "names": ["Aster Yu"],
+          "team": "group_tog"
+        }
+      ]
+    },
+    {
+      "position": "clubsSocietiesOfficer",
+      "candidates": [
+        {
+          "names": ["Harrison Lal"],
+          "team": "group_tog",
+          "votes": 0
+        },
+        {
+          "names": ["Chris Giddings"],
+          "team": "group_soj",
+          "votes": 0
+        }
+      ]
+    },
+    {
+      "position": "vocationalEducationOfficer",
+      "candidates": [
+        {
+          "names": ["Holly Medlyn"],
+          "team": "group_soj",
+          "votes": 0
+        },
+        {
+          "names": ["Yoan Theodore"],
+          "team": "group_tog",
+          "votes": 0
+        }
+      ]
+    },
+    {
+      "position": "brunswickCoordinator",
+      "candidates": [
+        {
+          "names": ["Wen Zheng"],
+          "team": "group_soj",
+          "votes": 0
+        },
+        {
+          "names": ["Vaani Saraswat"],
+          "team": "group_tog",
+          "votes": 0
+        }
+      ]
+    },
+    {
+      "position": "bundooraCoordinator",
+      "candidates": [
+        {
+          "names": ["Dulan Ariyatilaka"],
+          "team": "group_tog"
+        }
+      ]
+    },
+    {
+      "position": "cityCoordinator",
+      "candidates": [
+        {
+          "names": ["Donal Darvin"],
+          "team": "group_tog"
+        }
+      ]
+    },
+    {
+      "position": "brunswickRep",
+      "candidates": [
+        {
+          "names": ["Olivia McQuie"],
+          "team": "group_tog"
+        }
+      ]
+    },
+    {
+      "position": "bundooraEastRep",
+      "candidates": [
+        {
+          "names": ["Nidhi Bhatnagar"],
+          "team": "group_tog"
+        }
+      ]
+    },
+    {
+      "position": "bundooraWestRep",
+      "candidates": [
+        {
+          "names": ["Keenan Dinh"],
+          "team": "group_tog"
+        }
+      ]
+    },
+    {
+      "position": "cityRep",
+      "candidates": [
+        {
+          "names": ["Ryan Wong"],
+          "team": "group_tog",
+          "votes": 0
+        },
+        {
+          "names": ["Asyiqin Sanif"],
+          "team": "group_soj",
+          "votes": 0
+        }
+      ]
+    }
+  ],
+  "generalReps": [
+    {
+      "name": "Ella Byrne",
+      "team": "group_tog",
+      "votes": 0,
+      "elected": "No"
+    },
+    {
+      "name": "Lily Plummer",
+      "team": "group_tog",
+      "votes": 0,
+      "elected": "No"
+    },
+    {
+      "name": "Silvia Comerford",
+      "team": "group_tog",
+      "votes": 0,
+      "elected": "No"
+    },
+    {
+      "name": "Wenxin Yan",
+      "team": "group_tog",
+      "votes": 0,
+      "elected": "No"
+    },
+    {
+      "name": "Gaurav Harichandan",
+      "team": "group_tog",
+      "votes": 0,
+      "elected": "No"
+    },
+    {
+      "name": "Khushi Khanna",
+      "team": "group_tog",
+      "votes": 0,
+      "elected": "No"
+    },
+    {
+      "name": "Suzee Ngo",
+      "team": "group_tog",
+      "votes": 0,
+      "elected": "No"
+    },
+    {
+      "name": "Amelia Christie",
+      "team": "group_soj",
+      "votes": 0,
+      "elected": "No"
+    },
+    {
+      "name": "James McVicar",
+      "team": "group_soj",
+      "votes": 0,
+      "elected": "No"
+    },
+    {
+      "name": "Sarah Carpentier",
+      "team": "group_soj",
+      "votes": 0,
+      "elected": "No"
+    },
+    {
+      "name": "Holly Medlyn",
+      "team": "group_soj",
+      "votes": 0,
+      "elected": "No"
+    },
+    {
+      "name": "Gemma Seymour",
+      "team": "group_soj",
+      "votes": 0,
+      "elected": "No"
+    },
+    {
+      "name": "Ersha Mohan",
+      "team": "group_soj",
+      "votes": 0,
+      "elected": "No"
+    },
+    {
+      "name": "Yanni Kontos",
+      "team": "group_soj",
+      "votes": 0,
+      "elected": "No"
+    }
+  ],
+  "catalystEditor": [
+    {
+      "names": ["Cormac Mills Ritchard", "Willy Law", "Auley Ryan"],
+      "team": "group_soj",
+      "votes": 0
+    },
+    {
+      "names": ["Soumil", "Isabelle Mountjoy Austin", "Ishaan Ambavane"],
+      "team": "group_tog",
+      "votes": 0
+    }
+  ]
+}
