@@ -2,11 +2,11 @@
   "overallCount": [
     {
       "team": "group_tog",
-      "count": 6
+      "count": 27
     },
     {
       "team": "group_soj",
-      "count": 0
+      "count": 2
     }
   ],
   "officers": [
@@ -16,12 +16,12 @@
         {
           "names": ["Ben Milne"],
           "team": "group_soj",
-          "votes": 0
+          "votes": 1501
         },
         {
           "names": ["Dhweep Shah"],
           "team": "group_tog",
-          "votes": 0
+          "votes": 2711
         }
       ]
     },
@@ -31,12 +31,12 @@
         {
           "names": ["James McVicar"],
           "team": "group_soj",
-          "votes": 0
+          "votes": 1496
         },
         {
           "names": ["Koushik Mukherjee"],
           "team": "group_tog",
-          "votes": 0
+          "votes": 2720
         }
       ]
     },
@@ -46,12 +46,12 @@
         {
           "names": ["David Ng"],
           "team": "group_soj",
-          "votes": 0
+          "votes": 1488
         },
         {
           "names": ["Finbar Bray"],
           "team": "group_tog",
-          "votes": 0
+          "votes": 2725
         }
       ]
     },
@@ -61,12 +61,12 @@
         {
           "names": ["Aerozeta Anantaputra"],
           "team": "group_soj",
-          "votes": 0
+          "votes": 425
         },
         {
           "names": ["Ada Lu"],
           "team": "group_tog",
-          "votes": 0
+          "votes": 1295
         }
       ]
     },
@@ -76,12 +76,12 @@
         {
           "names": ["Mac Gosewisch"],
           "team": "group_soj",
-          "votes": 0
+          "votes": 230
         },
         {
           "names": ["Bhuvan Sharma"],
           "team": "group_tog",
-          "votes": 0
+          "votes": 723
         }
       ]
     },
@@ -91,12 +91,12 @@
         {
           "names": ["Zavia Lingenti"],
           "team": "group_soj",
-          "votes": 0
+          "votes": 819
         },
         {
           "names": ["Saumya Sindhu"],
           "team": "group_tog",
-          "votes": 0
+          "votes": 1011
         }
       ]
     },
@@ -106,12 +106,12 @@
         {
           "names": ["Gemma Seymour", "Stevie Hawes"],
           "team": "group_soj",
-          "votes": 0
+          "votes": 1477
         },
         {
           "names": ["Vivienne Balint", "Matthew Hayes"],
           "team": "group_tog",
-          "votes": 0
+          "votes": 2728
         }
       ]
     },
@@ -130,12 +130,12 @@
         {
           "names": ["Cormac Mills Ritchard"],
           "team": "group_soj",
-          "votes": 0
+          "votes": 1482
         },
         {
           "names": ["Samuel Coombs"],
           "team": "group_tog",
-          "votes": 0
+          "votes": 2727
         }
       ]
     },
@@ -145,12 +145,12 @@
         {
           "names": ["Amandi Peiris"],
           "team": "group_tog",
-          "votes": 0
+          "votes": 2746
         },
         {
           "names": ["Finn Corr"],
           "team": "group_soj",
-          "votes": 0
+          "votes": 1466
         }
       ]
     },
@@ -169,12 +169,12 @@
         {
           "names": ["Harrison Lal"],
           "team": "group_tog",
-          "votes": 0
+          "votes": 2770
         },
         {
           "names": ["Chris Giddings"],
           "team": "group_soj",
-          "votes": 0
+          "votes": 1441
         }
       ]
     },
@@ -184,12 +184,12 @@
         {
           "names": ["Holly Medlyn"],
           "team": "group_soj",
-          "votes": 0
+          "votes": 275
         },
         {
           "names": ["Yoan Theodore"],
           "team": "group_tog",
-          "votes": 0
+          "votes": 296
         }
       ]
     },
@@ -199,12 +199,12 @@
         {
           "names": ["Wen Zheng"],
           "team": "group_soj",
-          "votes": 0
+          "votes": 65
         },
         {
           "names": ["Vaani Saraswat"],
           "team": "group_tog",
-          "votes": 0
+          "votes": 175
         }
       ]
     },
@@ -259,12 +259,12 @@
         {
           "names": ["Ryan Wong"],
           "team": "group_tog",
-          "votes": 0
+          "votes": 1751
         },
         {
           "names": ["Asyiqin Sanif"],
           "team": "group_soj",
-          "votes": 0
+          "votes": 1526
         }
       ]
     }
@@ -273,85 +273,85 @@
     {
       "name": "Ella Byrne",
       "team": "group_tog",
-      "votes": 0,
-      "elected": "No"
+      "votes": 2465,
+      "elected": "1st"
     },
     {
       "name": "Lily Plummer",
       "team": "group_tog",
-      "votes": 0,
-      "elected": "No"
+      "votes": 26,
+      "elected": "3rd"
     },
     {
       "name": "Silvia Comerford",
       "team": "group_tog",
-      "votes": 0,
-      "elected": "No"
+      "votes": 7,
+      "elected": "5th"
     },
     {
       "name": "Wenxin Yan",
       "team": "group_tog",
-      "votes": 0,
-      "elected": "No"
+      "votes": 16,
+      "elected": "Alternate 1"
     },
     {
       "name": "Gaurav Harichandan",
       "team": "group_tog",
-      "votes": 0,
-      "elected": "No"
+      "votes": 17,
+      "elected": "Alternate 2"
     },
     {
       "name": "Khushi Khanna",
       "team": "group_tog",
-      "votes": 0,
+      "votes": 41,
       "elected": "No"
     },
     {
       "name": "Suzee Ngo",
       "team": "group_tog",
-      "votes": 0,
+      "votes": 37,
       "elected": "No"
     },
     {
       "name": "Amelia Christie",
       "team": "group_soj",
-      "votes": 0,
-      "elected": "No"
+      "votes": 1413,
+      "elected": "2nd"
     },
     {
       "name": "James McVicar",
       "team": "group_soj",
-      "votes": 0,
-      "elected": "No"
+      "votes": 17,
+      "elected": "4th"
     },
     {
       "name": "Sarah Carpentier",
       "team": "group_soj",
-      "votes": 0,
+      "votes": 8,
       "elected": "No"
     },
     {
       "name": "Holly Medlyn",
       "team": "group_soj",
-      "votes": 0,
+      "votes": 10,
       "elected": "No"
     },
     {
       "name": "Gemma Seymour",
       "team": "group_soj",
-      "votes": 0,
+      "votes": 9,
       "elected": "No"
     },
     {
       "name": "Ersha Mohan",
       "team": "group_soj",
-      "votes": 0,
+      "votes": 12,
       "elected": "No"
     },
     {
       "name": "Yanni Kontos",
       "team": "group_soj",
-      "votes": 0,
+      "votes": 18,
       "elected": "No"
     }
   ],
@@ -359,12 +359,28 @@
     {
       "names": ["Cormac Mills Ritchard", "Willy Law", "Auley Ryan"],
       "team": "group_soj",
-      "votes": 0
+      "votes": 1625
     },
     {
       "names": ["Soumil", "Isabelle Mountjoy Austin", "Ishaan Ambavane"],
       "team": "group_tog",
-      "votes": 0
+      "votes": 1913
+    }
+  ],
+  "referendums": [
+    {
+      "topic": "RUSU Elected Indigenous Officers",
+      "question": "Do you support the proposal to amend the RUSU constitution to increase the number of elected RUSU Indigenous Officers from one to two?",
+      "options": [
+        {
+          "option": "Yes",
+          "votes": 3537
+        },
+        {
+          "option": "No",
+          "votes": 347
+        }
+      ]
     }
   ]
 }
