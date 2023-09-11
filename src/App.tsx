@@ -2,13 +2,13 @@ import CouncilMember from "./components/CouncilMember";
 import GeneralRepresentatives from "./components/GeneralRepresentatives";
 import OverallCouncil from "./components/OverallCouncil";
 
-import results2022 from "../data/2022.json";
+import results2022 from "../data/2023.json";
 
 function App() {
   return (
     <div className="container mx-auto px-4">
       <h1>RUSU Annual Election Results</h1>
-      <hr className="my-4 border-t-4" />
+      <hr className="my-4 border-t-4 border-rusupurple" />
 
       <h2>2022 Elections</h2>
 
