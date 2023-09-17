@@ -1,9 +1,9 @@
 import { NOT_APPLICABLE, UNKNOWN_CANDIDATE, labelForPosition } from "../utils/labels";
-import { teamColourOf } from "../utils/teams";
 import { Candidate } from "../utils/types";
 import { votePercent } from "../utils/votes";
 
 import TeamNameWithDot from "./TeamNameWithDot";
+import CandidateSquare from "./common/CandidateSquare";
 
 interface CouncilMemberProps {
   positionID: string;
@@ -44,9 +44,7 @@ export default function CouncilMember({ positionID, candidates }: CouncilMemberP
         {Array(winner.names.length)
           .fill(null)
           .map(() => (
-            <div
-              className={`mr-2 inline-flex h-20 w-20 rounded-lg ${teamColourOf(winner.team)}`}
-            ></div>
+            <CandidateSquare teamID={winner.team} />
           ))}
 
         {/* Results table */}

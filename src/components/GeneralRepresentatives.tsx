@@ -1,11 +1,11 @@
 import { useState } from "react";
 
 import { NOT_APPLICABLE, UNKNOWN_CANDIDATE } from "../utils/labels";
-import { teamColourOf } from "../utils/teams";
 import { GeneralRepCandidate } from "../utils/types";
 import { droopQuotas, votePercent, wasElected, wasElectedMessage } from "../utils/votes";
 
 import TeamNameWithDot from "./TeamNameWithDot";
+import CandidateSquare from "./common/CandidateSquare";
 
 interface GeneralRepresentativesProps {
   candidates: GeneralRepCandidate[];
@@ -43,9 +43,7 @@ export default function GeneralRepresentatives({ candidates }: GeneralRepresenta
         {sortedTeamStats.map(([team, { elected }]) =>
           Array(elected)
             .fill(null)
-            .map(() => (
-              <div className={`mr-2 inline-flex h-20 w-20 rounded-lg ${teamColourOf(team)}`}></div>
-            ))
+            .map(() => <CandidateSquare teamID={team} />)
         )}
         {/* Team total results table */}
         <table className="mb-4 w-full">
