@@ -1,4 +1,4 @@
-import { teamColourOf, teamNameOf } from "../utils/teams";
+import { teamColourOf, teamNameOf } from "../../utils/teams";
 
 interface TeamNameWithDotProps {
   teamID: string;

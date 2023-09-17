@@ -4,8 +4,8 @@ import { NOT_APPLICABLE, UNKNOWN_CANDIDATE } from "../utils/labels";
 import { GeneralRepCandidate } from "../utils/types";
 import { droopQuotas, votePercent, wasElected, wasElectedMessage } from "../utils/votes";
 
-import TeamNameWithDot from "./TeamNameWithDot";
 import CandidateSquare from "./common/CandidateSquare";
+import TeamNameWithDot from "./common/TeamNameWithDot";
 
 interface GeneralRepresentativesProps {
   candidates: GeneralRepCandidate[];

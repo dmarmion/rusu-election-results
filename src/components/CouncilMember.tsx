@@ -2,8 +2,8 @@ import { NOT_APPLICABLE, UNKNOWN_CANDIDATE, labelForPosition } from "../utils/la
 import { Candidate } from "../utils/types";
 import { votePercent } from "../utils/votes";
 
-import TeamNameWithDot from "./TeamNameWithDot";
 import CandidateSquare from "./common/CandidateSquare";
+import TeamNameWithDot from "./common/TeamNameWithDot";
 
 interface CouncilMemberProps {
   positionID: string;
