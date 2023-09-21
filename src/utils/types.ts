@@ -15,3 +15,23 @@ export interface TeamCount {
   team: string;
   count: number;
 }
+
+export interface Referendum {
+  topic: string;
+  question: string;
+  options: Array<{
+    option: string;
+    votes: number;
+  }>;
+}
+
+export interface ResultsFile {
+  overallCount: TeamCount[];
+  officers: Array<{
+    position: string;
+    candidates: Candidate[];
+  }>;
+  generalReps: GeneralRepCandidate[];
+  catalystEditor?: Candidate[];
+  referendums?: Referendum[];
+}
