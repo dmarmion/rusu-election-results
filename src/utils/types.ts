@@ -35,3 +35,8 @@ export interface ResultsFile {
   catalystEditor?: Candidate[];
   referendums?: Referendum[];
 }
+
+export interface NamedResultsFile {
+  name: string;
+  file: ResultsFile;
+}
