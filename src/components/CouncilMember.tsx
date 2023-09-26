@@ -1,9 +1,10 @@
 import { NOT_APPLICABLE, UNKNOWN_CANDIDATE, labelForPosition } from "../utils/labels";
 import { Candidate } from "../utils/types";
-import { votePercent } from "../utils/votes";
+import { votePercent, votePercentMessage } from "../utils/votes";
 
 import CandidateSquare from "./common/CandidateSquare";
 import TeamNameWithDot from "./common/TeamNameWithDot";
+import VoteShareBar from "./common/VoteShareBar";
 
 interface CouncilMemberProps {
   positionID: string;
@@ -48,7 +49,7 @@ export default function CouncilMember({ positionID, candidates }: CouncilMemberP
           ))}
 
         {/* Results table */}
-        <table className="w-full">
+        <table className="mb-4 w-full">
           <thead>
             <tr className="border-b-2 border-gray-700 text-left">
               <th>Candidate</th>
@@ -68,11 +69,17 @@ export default function CouncilMember({ positionID, candidates }: CouncilMemberP
                   <TeamNameWithDot teamID={team} />
                 </td>
                 <td className="p-2">{votes ?? NOT_APPLICABLE}</td>
-                <td className="p-2">{votePercent(votes, votesCast)}</td>
+                <td className="p-2">{votePercentMessage(votes, votesCast)}</td>
               </tr>
             ))}
           </tbody>
         </table>
+        <VoteShareBar
+          teamVotes={candidates.map(({ team, votes }) => ({
+            teamID: team,
+            voteShare: votes !== undefined ? votePercent(votes, votesCast) : 100,
+          }))}
+        />
       </div>
     </div>
   );

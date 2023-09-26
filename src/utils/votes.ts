@@ -5,11 +5,17 @@ import {
   NOT_ELECTED_MESSAGE,
 } from "./labels";
 
-// Get the percentage of total votes a number of votes represents, rounded to two decimal places,
-// or a placeholder message if there are no votes
-export const votePercent = (votes: number | undefined, totalVotes: number): string => {
+// Calculates the percentage of totalVotes a number of votes represents.
+// Returns 100 if votes or totalVotes are invalid.
+export const votePercent = (votes: number, totalVotes: number): number => {
+  return votes >= 0 && totalVotes > 0 ? (votes / totalVotes) * 100 : 100;
+};
+
+// Get a string containing the percentage of total votes a number of votes represents, rounded to
+// two decimal places, or a placeholder message if there are no votes
+export const votePercentMessage = (votes: number | undefined, totalVotes: number): string => {
   return votes !== undefined && totalVotes > 0
-    ? ((votes / totalVotes) * 100).toFixed(2)
+    ? votePercent(votes, totalVotes).toFixed(2)
     : NOT_APPLICABLE;
 };
 

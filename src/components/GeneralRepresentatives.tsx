@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { NOT_APPLICABLE, UNKNOWN_CANDIDATE } from "../utils/labels";
 import { GeneralRepCandidate } from "../utils/types";
-import { droopQuotas, votePercent, wasElected, wasElectedMessage } from "../utils/votes";
+import { droopQuotas, votePercentMessage, wasElected, wasElectedMessage } from "../utils/votes";
 
 import CandidateSquare from "./common/CandidateSquare";
 import TeamNameWithDot from "./common/TeamNameWithDot";
@@ -67,7 +67,7 @@ export default function GeneralRepresentatives({ candidates }: GeneralRepresenta
                 </td>
                 <td className="p-2">{votes ?? NOT_APPLICABLE}</td>
                 <td className="p-2">{droopQuotas(votes, votesCast, POSITIONS_AVAILABLE)}</td>
-                <td className="p-2">{votePercent(votes, votesCast)}</td>
+                <td className="p-2">{votePercentMessage(votes, votesCast)}</td>
                 <td className="p-2">{elected}</td>
               </tr>
             ))}
@@ -105,7 +105,7 @@ export default function GeneralRepresentatives({ candidates }: GeneralRepresenta
                   </td>
                   <td className="p-2">{votes ?? NOT_APPLICABLE}</td>
                   <td className="p-2">{droopQuotas(votes, votesCast, POSITIONS_AVAILABLE)}</td>
-                  <td className="p-2">{votePercent(votes, votesCast)}</td>
+                  <td className="p-2">{votePercentMessage(votes, votesCast)}</td>
                   <td className="p-2">{wasElectedMessage(elected)}</td>
                 </tr>
               ))}
