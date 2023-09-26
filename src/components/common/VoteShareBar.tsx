@@ -9,7 +9,7 @@ interface VoteShareBarProps {
 
 export default function VoteShareBar({ teamVotes }: VoteShareBarProps) {
   return (
-    <div className="h-8 w-full">
+    <div className="h-8 w-full overflow-hidden rounded-lg">
       {teamVotes.map(({ teamID, voteShare }) => (
         <div
           className={`inline-block h-full ${teamColourOf(teamID)}`}
