@@ -2,10 +2,17 @@ import { useState } from "react";
 
 import { NOT_APPLICABLE, UNKNOWN_CANDIDATE } from "../utils/labels";
 import { GeneralRepCandidate } from "../utils/types";
-import { droopQuotas, votePercentMessage, wasElected, wasElectedMessage } from "../utils/votes";
+import {
+  droopQuotas,
+  votePercent,
+  votePercentMessage,
+  wasElected,
+  wasElectedMessage,
+} from "../utils/votes";
 
 import CandidateSquare from "./common/CandidateSquare";
 import TeamNameWithDot from "./common/TeamNameWithDot";
+import VoteShareBar from "./common/VoteShareBar";
 
 interface GeneralRepresentativesProps {
   candidates: GeneralRepCandidate[];
@@ -73,9 +80,17 @@ export default function GeneralRepresentatives({ candidates }: GeneralRepresenta
             ))}
           </tbody>
         </table>
+        <VoteShareBar
+          teamVotes={sortedTeamStats.map(([team, { votes }]) => {
+            return {
+              teamID: team,
+              voteShare: votePercent(votes, votesCast),
+            };
+          })}
+        />
         {/* Button to toggle the full results table */}
         <button
-          className="mb-2 rounded-lg bg-rusupurple px-4 py-2 text-white"
+          className="mb-2 mt-4 rounded-lg bg-rusupurple px-4 py-2 text-white"
           onClick={() => setShowFullResults(!showFullResults)}
         >
           {showFullResults ? "Hide" : "Show"} Full Results
