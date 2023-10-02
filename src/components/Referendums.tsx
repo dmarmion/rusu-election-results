@@ -1,5 +1,8 @@
+import VoteShareBar from "./common/VoteShareBar";
+
+import { OPTION_PREFIX } from "../utils/teams";
 import { Referendum } from "../utils/types";
-import { votePercentMessage } from "../utils/votes";
+import { votePercent, votePercentMessage } from "../utils/votes";
 
 interface ReferendumsProps {
   referendums: Referendum[];
@@ -52,6 +55,14 @@ export default function Referendums({ referendums }: ReferendumsProps) {
                   ))}
                 </tbody>
               </table>
+              <VoteShareBar
+                teamVotes={options.map(({ option, votes }) => {
+                  return {
+                    teamID: OPTION_PREFIX + option.toLowerCase(),
+                    voteShare: votePercent(votes, votesCast),
+                  };
+                })}
+              />
             </>
           );
         })}

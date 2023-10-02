@@ -14,6 +14,9 @@ export const TEAM_ID_STUDENT_VOICE = "group_stv";
 export const TEAM_ID_STUDENT_FIGHTBACK = "group_stf";
 export const TEAM_ID_MOMENTUM = "group_mom";
 
+// Referendum option prefix
+export const OPTION_PREFIX = "option-";
+
 // Stores the tailwind background colour associated with each team
 const TEAM_COLOURS = new Map([
   [TEAM_ID_TOGETHER, "bg-[#15aefc]"],
@@ -21,6 +24,10 @@ const TEAM_COLOURS = new Map([
   [TEAM_ID_STUDENT_VOICE, "bg-[#f25a45]"],
   [TEAM_ID_STUDENT_FIGHTBACK, "bg-[#6664fd]"],
   [TEAM_ID_MOMENTUM, "bg-[#d089e5]"],
+
+  // Referendum options
+  [`${OPTION_PREFIX}yes`, "bg-green-500"],
+  [`${OPTION_PREFIX}no`, "bg-red-500"],
 ]);
 
 // Stores the team name associated with each team identifier
