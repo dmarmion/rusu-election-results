@@ -3,6 +3,7 @@ import { useState } from "react";
 import CouncilMember from "./components/CouncilMember";
 import GeneralRepresentatives from "./components/GeneralRepresentatives";
 import OverallCouncil from "./components/OverallCouncil";
+import Referendums from "./components/Referendums";
 import YearPicker from "./components/YearPicker";
 
 import { resultsFiles } from "./utils/resultsFiles";
@@ -31,6 +32,9 @@ function App() {
           <CouncilMember positionID={position.position} candidates={position.candidates} />
         ))}
       </div>
+
+      {/* Referendum results, if any for that year */}
+      {results.referendums && <Referendums referendums={results.referendums} />}
     </div>
   );
 }
