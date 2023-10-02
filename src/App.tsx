@@ -26,15 +26,15 @@ function App() {
       <OverallCouncil teamCounts={results.overallCount} />
       <GeneralRepresentatives candidates={results.generalReps} />
 
+      {/* Referendum results, if any for that year */}
+      {results.referendums && <Referendums referendums={results.referendums} />}
+
       {/* Council position result boxes */}
       <div className="mb-4 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
         {results.officers.map((position) => (
           <CouncilMember positionID={position.position} candidates={position.candidates} />
         ))}
       </div>
-
-      {/* Referendum results, if any for that year */}
-      {results.referendums && <Referendums referendums={results.referendums} />}
     </div>
   );
 }
