@@ -18,10 +18,9 @@ export default function OverallCouncil({ teamCounts = [] }: OverallCouncilProps)
     <div className="mb-4">
       <h3>Overall Council</h3>
       <p className="mb-2 italic">Does not include NUS delegates</p>
-
-      <div className="grid grid-cols-7 gap-2 rounded-lg bg-neutral-200 p-2">
+      <div className="flex flex-wrap gap-2 rounded-lg bg-neutral-200 p-2">
         {seatColours.map((bgColour, idx) => (
-          <div className={`w-fill h-10 rounded-lg ${bgColour}`} key={idx}></div>
+          <div className={`aspect-square h-16 rounded-lg ${bgColour}`} key={idx}></div>
         ))}
       </div>
     </div>
