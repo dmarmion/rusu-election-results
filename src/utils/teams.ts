@@ -1,6 +1,10 @@
 import {
+  TEAM_NAME_CLIMATE_ACTION,
   TEAM_NAME_MOMENTUM,
+  TEAM_NAME_NO_TEAM,
+  TEAM_NAME_REVIVE,
   TEAM_NAME_SOCIAL_JUSTICE,
+  TEAM_NAME_STALLIONZ,
   TEAM_NAME_STUDENT_FIGHTBACK,
   TEAM_NAME_STUDENT_VOICE,
   TEAM_NAME_TOGETHER,
@@ -8,7 +12,11 @@ import {
 } from "./labels";
 
 // Identifiers for each team
+export const TEAM_ID_NO_TEAM = "group_not";
 export const TEAM_ID_TOGETHER = "group_tog";
+export const TEAM_ID_REVIVE = "group_rev";
+export const TEAM_ID_STALLIONZ = "group_sta";
+export const TEAM_ID_CLIMATE_ACTION = "group_cla";
 export const TEAM_ID_SOCIAL_JUSTICE = "group_soj";
 export const TEAM_ID_STUDENT_VOICE = "group_stv";
 export const TEAM_ID_STUDENT_FIGHTBACK = "group_stf";
@@ -20,6 +28,9 @@ export const OPTION_PREFIX = "option-";
 // Stores the tailwind background colour associated with each team
 const TEAM_COLOURS = new Map([
   [TEAM_ID_TOGETHER, "bg-[#15aefc]"],
+  [TEAM_ID_REVIVE, "bg-[#f48000]"],
+  [TEAM_ID_STALLIONZ, "bg-amber-900"],
+  [TEAM_ID_CLIMATE_ACTION, "bg-black"],
   [TEAM_ID_SOCIAL_JUSTICE, "bg-[#010101]"],
   [TEAM_ID_STUDENT_VOICE, "bg-[#f25a45]"],
   [TEAM_ID_STUDENT_FIGHTBACK, "bg-[#6664fd]"],
@@ -32,7 +43,11 @@ const TEAM_COLOURS = new Map([
 
 // Stores the team name associated with each team identifier
 const TEAM_NAME_LABELS = new Map([
+  [TEAM_ID_NO_TEAM, TEAM_NAME_NO_TEAM],
   [TEAM_ID_TOGETHER, TEAM_NAME_TOGETHER],
+  [TEAM_ID_REVIVE, TEAM_NAME_REVIVE],
+  [TEAM_ID_STALLIONZ, TEAM_NAME_STALLIONZ],
+  [TEAM_ID_CLIMATE_ACTION, TEAM_NAME_CLIMATE_ACTION],
   [TEAM_ID_SOCIAL_JUSTICE, TEAM_NAME_SOCIAL_JUSTICE],
   [TEAM_ID_STUDENT_VOICE, TEAM_NAME_STUDENT_VOICE],
   [TEAM_ID_STUDENT_FIGHTBACK, TEAM_NAME_STUDENT_FIGHTBACK],

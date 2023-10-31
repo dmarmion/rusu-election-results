@@ -68,7 +68,11 @@ const POSITION_LABELS = new Map([
 ]);
 
 // Labels for each team name
+export const TEAM_NAME_NO_TEAM = "Independent";
 export const TEAM_NAME_TOGETHER = "Together";
+export const TEAM_NAME_REVIVE = "Revive";
+export const TEAM_NAME_STALLIONZ = "Stallionz";
+export const TEAM_NAME_CLIMATE_ACTION = "Climate Action";
 export const TEAM_NAME_SOCIAL_JUSTICE = "Social Justice";
 export const TEAM_NAME_STUDENT_VOICE = "Student Voice";
 export const TEAM_NAME_STUDENT_FIGHTBACK = "Student Fightback - Stop Fee Hikes!";

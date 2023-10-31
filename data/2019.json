@@ -1,0 +1,444 @@
+{
+  "overallCount": [
+    {
+      "team": "group_tog",
+      "count": 23
+    },
+    {
+      "team": "group_rev",
+      "count": 2
+    },
+    {
+      "team": "group_cla",
+      "count": 1
+    },
+    {
+      "team": "group_sta",
+      "count": 0
+    }
+  ],
+  "officers": [
+    {
+      "position": "generalSecretary",
+      "candidates": [
+        {
+          "names": ["Chaitali Pradeep Bhanushali"],
+          "team": "group_rev",
+          "votes": 1448
+        },
+        {
+          "names": ["Bilal Ayub"],
+          "team": "group_sta",
+          "votes": 169
+        },
+        {
+          "names": ["Beatrice Co"],
+          "team": "group_tog",
+          "votes": 2180
+        },
+        {
+          "names": ["Matthew Vogt"],
+          "team": "group_not",
+          "votes": 96
+        }
+      ]
+    },
+    {
+      "position": "educationOfficer",
+      "candidates": [
+        {
+          "names": ["Akshay Jose"],
+          "team": "group_tog",
+          "votes": 2450
+        },
+        {
+          "names": ["Mohammad Waqar Khan"],
+          "team": "group_rev",
+          "votes": 1427
+        }
+      ]
+    },
+    {
+      "position": "welfareOfficer",
+      "candidates": [
+        {
+          "names": ["Chrishell Yin"],
+          "team": "group_tog",
+          "votes": 2350
+        },
+        {
+          "names": ["Mohammad Faisal"],
+          "team": "group_sta",
+          "votes": 231
+        },
+        {
+          "names": ["Riyadh Mohammed Hashil Al Saadi"],
+          "team": "group_rev",
+          "votes": 1307
+        }
+      ]
+    },
+    {
+      "position": "internationalOfficer",
+      "candidates": [
+        {
+          "names": ["Vibhor Bangwal"],
+          "team": "group_rev",
+          "votes": 709
+        },
+        {
+          "names": ["Xiaoyue Gui"],
+          "team": "group_tog",
+          "votes": 1283
+        },
+        {
+          "names": ["Muhammad Shehram Syed"],
+          "team": "group_sta",
+          "votes": 158
+        }
+      ]
+    },
+    {
+      "position": "postgraduateOfficer",
+      "candidates": [
+        {
+          "names": ["Ali Iftikhar Choudhary"],
+          "team": "group_sta",
+          "votes": 88
+        },
+        {
+          "names": ["Ria Talwar"],
+          "team": "group_rev",
+          "votes": 544
+        },
+        {
+          "names": ["Nithin Reddy Ponnaluru"],
+          "team": "group_tog",
+          "votes": 629
+        }
+      ]
+    },
+    {
+      "position": "womensOfficer",
+      "candidates": [
+        {
+          "names": ["Nakhat Yemen Syeda"],
+          "team": "group_rev",
+          "votes": 608
+        },
+        {
+          "names": ["Mounika Gudapati"],
+          "team": "group_tog",
+          "votes": 994
+        }
+      ]
+    },
+    {
+      "position": "queerOfficer",
+      "candidates": [
+        {
+          "names": ["Kingston Goh", "Matte Howard"],
+          "team": "group_tog",
+          "votes": 2455
+        },
+        {
+          "names": ["Roz Ward", "Maddie Hah"],
+          "team": "group_cla",
+          "votes": 1282
+        }
+      ]
+    },
+    {
+      "position": "indigenousOfficer",
+      "candidates": [
+        {
+          "names": ["Bromley See Kee"],
+          "team": "group_tog"
+        }
+      ]
+    },
+    {
+      "position": "activitiesOfficer",
+      "candidates": [
+        {
+          "names": ["Qamar Abbas Jafri"],
+          "team": "group_sta",
+          "votes": 250
+        },
+        {
+          "names": ["Karan Majoj Khandelwal"],
+          "team": "group_tog",
+          "votes": 2284
+        },
+        {
+          "names": ["Aroshi Gupta"],
+          "team": "group_rev",
+          "votes": 1338
+        }
+      ]
+    },
+    {
+      "position": "sustainabilityOfficer",
+      "candidates": [
+        {
+          "names": ["Emily Cork"],
+          "team": "group_tog",
+          "votes": 2367
+        },
+        {
+          "names": ["Natalie Acreman"],
+          "team": "group_rev",
+          "votes": 1504
+        }
+      ]
+    },
+    {
+      "position": "clubsSocietiesOfficer",
+      "candidates": [
+        {
+          "names": ["Mona Makhija"],
+          "team": "group_tog",
+          "votes": 2374
+        },
+        {
+          "names": ["Anshul Srivastava"],
+          "team": "group_rev",
+          "votes": 1354
+        },
+        {
+          "names": ["Ali Iftikhar Choudhary"],
+          "team": "group_sta",
+          "votes": 139
+        }
+      ]
+    },
+    {
+      "position": "vocationalEducationOfficer",
+      "candidates": [
+        {
+          "names": ["Usman Tahir"],
+          "team": "group_rev",
+          "votes": 135
+        },
+        {
+          "names": ["William Gate"],
+          "team": "group_tog",
+          "votes": 207
+        }
+      ]
+    },
+    {
+      "position": "brunswickCoordinator",
+      "candidates": [
+        {
+          "names": ["Shreya Nagar"],
+          "team": "group_rev",
+          "votes": 43
+        },
+        {
+          "names": ["Jessica Mayer"],
+          "team": "group_tog",
+          "votes": 67
+        },
+        {
+          "names": ["Nauman Choudhry"],
+          "team": "group_sta",
+          "votes": 8
+        }
+      ]
+    },
+    {
+      "position": "bundooraCoordinator",
+      "candidates": [
+        {
+          "names": ["Haroon Esmail"],
+          "team": "group_rev",
+          "votes": 181
+        },
+        {
+          "names": ["Stephanie Flores-Tapia"],
+          "team": "group_tog",
+          "votes": 184
+        }
+      ]
+    },
+    {
+      "position": "cityCoordinator",
+      "candidates": [
+        {
+          "names": ["Haris Siraj"],
+          "team": "group_sta",
+          "votes": 224
+        },
+        {
+          "names": ["Lehkika Jain"],
+          "team": "group_rev",
+          "votes": 1238
+        },
+        {
+          "names": ["Prashanth Kumar"],
+          "team": "group_tog",
+          "votes": 1891
+        }
+      ]
+    },
+    {
+      "position": "brunswickRep",
+      "candidates": [
+        {
+          "names": ["Muskaan Gupta"],
+          "team": "group_rev",
+          "votes": 41
+        },
+        {
+          "names": ["Meher Dang"],
+          "team": "group_tog",
+          "votes": 74
+        }
+      ]
+    },
+    {
+      "position": "bundooraEastRep",
+      "candidates": [
+        {
+          "names": ["Sultan Al-Ghafri"],
+          "team": "group_rev",
+          "votes": 178
+        },
+        {
+          "names": ["Sona Kannan"],
+          "team": "group_tog",
+          "votes": 201
+        }
+      ]
+    },
+    {
+      "position": "bundooraWestRep",
+      "candidates": [
+        {
+          "names": ["Rijul Kumar Singh"],
+          "team": "group_rev",
+          "votes": 178
+        },
+        {
+          "names": ["Stephanie Au"],
+          "team": "group_tog",
+          "votes": 194
+        }
+      ]
+    },
+    {
+      "position": "cityRep",
+      "candidates": [
+        {
+          "names": ["Shreyas Rahul Urunkar"],
+          "team": "group_tog",
+          "votes": 2129
+        },
+        {
+          "names": ["Rahil Viren Mehta"],
+          "team": "group_rev",
+          "votes": 1233
+        }
+      ]
+    }
+  ],
+  "generalReps": [
+    {
+      "name": "Cormac Mills Ritchard",
+      "team": "group_cla",
+      "votes": 520,
+      "elected": "4th"
+    },
+    {
+      "name": "Ankit Saurabh",
+      "team": "group_tog",
+      "votes": 631,
+      "elected": "1st"
+    },
+    {
+      "name": "Aasrita Kalahasti",
+      "team": "group_rev",
+      "votes": 343,
+      "elected": "5th"
+    },
+    {
+      "name": "Anand Singh",
+      "team": "group_rev",
+      "votes": 218,
+      "elected": "No"
+    },
+    {
+      "name": "Ankit Munot",
+      "team": "group_rev",
+      "votes": 310,
+      "elected": "Alternate 1"
+    },
+    {
+      "name": "Sacha McDonald-Shaw",
+      "team": "group_cla",
+      "votes": 63,
+      "elected": "No"
+    },
+    {
+      "name": "Peiji Zhou",
+      "team": "group_tog",
+      "votes": 341,
+      "elected": "3rd"
+    },
+    {
+      "name": "Evangeline Stogiannou",
+      "team": "group_cla",
+      "votes": 36,
+      "elected": "No"
+    },
+    {
+      "name": "Chris Giddings",
+      "team": "group_cla",
+      "votes": 28,
+      "elected": "No"
+    },
+    {
+      "name": "Milly Cox",
+      "team": "group_cla",
+      "votes": 32,
+      "elected": "No"
+    },
+    {
+      "name": "Xavier Fitzgerald",
+      "team": "group_tog",
+      "votes": 243,
+      "elected": "Alternate 2"
+    },
+    {
+      "name": "Prashant Kumar",
+      "team": "group_rev",
+      "votes": 86,
+      "elected": "No"
+    },
+    {
+      "name": "Naomi Kelsey",
+      "team": "group_cla",
+      "votes": 38,
+      "elected": "No"
+    },
+    {
+      "name": "Liam Parry",
+      "team": "group_cla",
+      "votes": 19,
+      "elected": "No"
+    },
+    {
+      "name": "Yun Wang",
+      "team": "group_tog",
+      "votes": 193,
+      "elected": "No"
+    },
+    {
+      "name": "Daniel Hoogstra",
+      "team": "group_tog",
+      "votes": 540,
+      "elected": "2nd"
+    }
+  ]
+}
