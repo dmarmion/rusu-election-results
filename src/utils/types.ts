@@ -30,6 +30,7 @@ export interface ResultsFile {
   officers: Array<{
     position: string;
     candidates: Candidate[];
+    finalCount?: Candidate[];
   }>;
   generalReps: GeneralRepCandidate[];
   catalystEditor?: Candidate[];

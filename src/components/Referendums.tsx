@@ -2,7 +2,7 @@ import VoteShareBar from "./common/VoteShareBar";
 
 import { OPTION_PREFIX } from "../utils/teams";
 import { Referendum } from "../utils/types";
-import { votePercent, votePercentMessage } from "../utils/votes";
+import { totalVotes, votePercent, votePercentMessage } from "../utils/votes";
 
 interface ReferendumsProps {
   referendums: Referendum[];
@@ -15,9 +15,7 @@ export default function Referendums({ referendums }: ReferendumsProps) {
       <div className="flex flex-col rounded-lg bg-neutral-200 p-2">
         {referendums.map(({ topic, question, options }) => {
           // Total number of votes cast in this referendum
-          const votesCast = options.reduce((prevTotal, { votes }) => {
-            return prevTotal + votes;
-          }, 0);
+          const votesCast = totalVotes(options);
 
           // Calculate index of most popular option
           let winnerIndex = 0;

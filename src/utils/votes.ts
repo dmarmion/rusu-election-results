@@ -39,3 +39,10 @@ export const wasElectedMessage = (electedStatus: string): string => {
     ? NOT_ELECTED_MESSAGE
     : `${ELECTED_PREFIX} ${electedStatus}`;
 };
+
+// Calculates the total number of votes cast from a list of candidates/options
+export const totalVotes = (candidates: Array<{ votes?: number }>): number => {
+  return candidates.reduce((prevTotal, candidate) => {
+    return prevTotal + (candidate.votes ?? 0);
+  }, 0);
+};

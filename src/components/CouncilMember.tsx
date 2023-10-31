@@ -1,6 +1,6 @@
 import { NOT_APPLICABLE, UNKNOWN_CANDIDATE, labelForPosition } from "../utils/labels";
 import { Candidate } from "../utils/types";
-import { votePercent, votePercentMessage } from "../utils/votes";
+import { totalVotes, votePercent, votePercentMessage } from "../utils/votes";
 
 import CandidateSquare from "./common/CandidateSquare";
 import TeamNameWithDot from "./common/TeamNameWithDot";
@@ -9,9 +9,10 @@ import VoteShareBar from "./common/VoteShareBar";
 interface CouncilMemberProps {
   positionID: string;
   candidates: Candidate[];
+  finalCount?: Candidate[];
 }
 
-export default function CouncilMember({ positionID, candidates }: CouncilMemberProps) {
+export default function CouncilMember({ positionID, candidates, finalCount }: CouncilMemberProps) {
   // There must be at least one candidate for the position
   if (candidates.length === 0) {
     return null;
@@ -33,9 +34,8 @@ export default function CouncilMember({ positionID, candidates }: CouncilMemberP
   const winner = candidates[winnerIndex];
 
   // Calculate total number of votes cast
-  const votesCast = candidates.reduce((prevTotal, candidate) => {
-    return prevTotal + (candidate.votes ?? 0);
-  }, 0);
+  const votesCast = totalVotes(candidates);
+  const finalCountVotes = totalVotes(finalCount ?? []);
 
   return (
     <div className="flex flex-col">
@@ -85,6 +85,21 @@ export default function CouncilMember({ positionID, candidates }: CouncilMemberP
             voteShare: votes !== undefined ? votePercent(votes, votesCast) : 100,
           }))}
         />
+        {finalCount && (
+          <>
+            <p className="mt-2">After distributing preferences, the final result was:</p>
+            <p>
+              {finalCount
+                .map(
+                  (candidate) =>
+                    `${candidate.names} ${votePercentMessage(candidate.votes, finalCountVotes)}% (${
+                      candidate.votes
+                    } votes)`
+                )
+                .join(", ")}
+            </p>
+          </>
+        )}
       </div>
     </div>
   );

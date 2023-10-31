@@ -116,6 +116,18 @@
           "team": "group_tog",
           "votes": 629
         }
+      ],
+      "finalCount": [
+        {
+          "names": ["Ria Talwar"],
+          "team": "group_rev",
+          "votes": 582
+        },
+        {
+          "names": ["Nithin Reddy Ponnaluru"],
+          "team": "group_tog",
+          "votes": 635
+        }
       ]
     },
     {

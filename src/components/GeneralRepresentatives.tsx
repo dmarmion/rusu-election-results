@@ -4,6 +4,7 @@ import { NOT_APPLICABLE, UNKNOWN_CANDIDATE } from "../utils/labels";
 import { GeneralRepCandidate } from "../utils/types";
 import {
   droopQuotas,
+  totalVotes,
   votePercent,
   votePercentMessage,
   wasElected,
@@ -27,7 +28,7 @@ export default function GeneralRepresentatives({ candidates }: GeneralRepresenta
   const [showFullResults, setShowFullResults] = useState<boolean>(false);
 
   const POSITIONS_AVAILABLE = 7;
-  const votesCast = candidates.reduce((prevTotal, candidate) => prevTotal + candidate.votes, 0);
+  const votesCast = totalVotes(candidates);
 
   // Calculate total number of votes and candidates elected for each team
   const teamStats: Map<string, TeamStats> = new Map();
