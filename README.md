@@ -9,3 +9,5 @@ from the [RUSU website](https://rusu.rmit.edu.au/), with the assistance of the W
 retrieve some older results.
 
 ![Screenshot of the website, displaying the 2021 results](screenshot.png)
+
+Run `npm i` to install dependencies, then `npm run dev` to start the app.
