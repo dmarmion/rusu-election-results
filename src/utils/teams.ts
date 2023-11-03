@@ -1,5 +1,8 @@
 import {
+  TEAM_NAME_BELONG,
   TEAM_NAME_CLIMATE_ACTION,
+  TEAM_NAME_CONNECT,
+  TEAM_NAME_LEFT_VOICE,
   TEAM_NAME_MOMENTUM,
   TEAM_NAME_NO_TEAM,
   TEAM_NAME_REVIVE,
@@ -16,6 +19,9 @@ export const TEAM_ID_NO_TEAM = "group_not";
 export const TEAM_ID_TOGETHER = "group_tog";
 export const TEAM_ID_REVIVE = "group_rev";
 export const TEAM_ID_STALLIONZ = "group_sta";
+export const TEAM_ID_BELONG = "group_bel";
+export const TEAM_ID_CONNECT = "group_con";
+export const TEAM_ID_LEFT_VOICE = "group_lev";
 export const TEAM_ID_CLIMATE_ACTION = "group_cla";
 export const TEAM_ID_SOCIAL_JUSTICE = "group_soj";
 export const TEAM_ID_STUDENT_VOICE = "group_stv";
@@ -30,6 +36,9 @@ const TEAM_COLOURS = new Map([
   [TEAM_ID_TOGETHER, "bg-[#15aefc]"],
   [TEAM_ID_REVIVE, "bg-[#f48000]"],
   [TEAM_ID_STALLIONZ, "bg-amber-900"],
+  [TEAM_ID_BELONG, "bg-[#ffd21f]"],
+  [TEAM_ID_CONNECT, "bg-[#ff2501]"],
+  [TEAM_ID_LEFT_VOICE, "bg-[#859145]"],
   [TEAM_ID_CLIMATE_ACTION, "bg-black"],
   [TEAM_ID_SOCIAL_JUSTICE, "bg-[#010101]"],
   [TEAM_ID_STUDENT_VOICE, "bg-[#f25a45]"],
@@ -47,6 +56,9 @@ const TEAM_NAME_LABELS = new Map([
   [TEAM_ID_TOGETHER, TEAM_NAME_TOGETHER],
   [TEAM_ID_REVIVE, TEAM_NAME_REVIVE],
   [TEAM_ID_STALLIONZ, TEAM_NAME_STALLIONZ],
+  [TEAM_ID_BELONG, TEAM_NAME_BELONG],
+  [TEAM_ID_CONNECT, TEAM_NAME_CONNECT],
+  [TEAM_ID_LEFT_VOICE, TEAM_NAME_LEFT_VOICE],
   [TEAM_ID_CLIMATE_ACTION, TEAM_NAME_CLIMATE_ACTION],
   [TEAM_ID_SOCIAL_JUSTICE, TEAM_NAME_SOCIAL_JUSTICE],
   [TEAM_ID_STUDENT_VOICE, TEAM_NAME_STUDENT_VOICE],
